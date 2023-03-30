@@ -1,0 +1,86 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color:rgb(255, 247, 223);
+    font-family:"Roboto", sans-serif;
+}
+.logo-cont {
+    width: 40%;
+}
+.logo-img {
+    max-width: 100%;
+    height: auto;
+}
+h1, .account{
+    text-align: center;
+    font-size: 4vw;
+    color: grey;
+}
+input{
+    display: block;
+    text-align: center;
+    margin: 20px auto;
+    width:70%;
+    height: 40px;
+    border-radius: 20px;
+    border: 1px solid rgb(92, 92, 92);
+}
+button {
+    border-radius: 30px;
+    border: none;
+    background-color: rgb(255, 138, 0);
+    width:60%;
+    height: 40px;
+    display: block;
+    text-align: center;
+    margin: 40px auto;
+    color:white;
+   
+}
+.img-cont{
+    display: none;
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px){
+    .img-cont{
+        display: block;
+        max-width: 40%;
+    }
+    .home-img{
+        max-width: 100%;
+        height: auto;
+    }
+    main{
+        max-width: 60%;
+    }
+    body{
+        display: flex;
+        justify-content: space-between;
+    }
+    .account{
+        font-size: 3vw;
+    }
+    input, button{
+        height: 55px;
+    }
+
+}
+@media only screen and (min-width: 1024px) and (max-width: 1440px){
+    .img-cont{
+        display: block;
+        max-width: 60%;
+    }
+    main{
+        max-width: 40%;
+    }
+    body{
+        display: flex;
+        justify-content: space-between;
+    }
+    .account, h1{
+        font-size: 2vw;
+    }
+    input, button{
+        height: 65px;
+    } 
+}

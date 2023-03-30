@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@400;700&family=Roboto:wght@400;700&family=Space+Grotesk:wght@400;500&display=swap" rel="stylesheet">
+    <title>Comfy Domicile</title>
+</head>
+<body>
+    <main>
+        <img src="../images/logo.png" alt="school-logo" class="logo-img">
+        <h1>Sign in to your account to continue</h1>
+        <form action="#">
+            <input type="email" name="email" id="mail" placeholder="Email" required>
+            <input type="password" name="password" pattern="[a-z0-5]{8}" id="password"
+          title="must contain only 8 characters of 5 lowercase and 3 numbers" placeholder="password" required>
+            <button type="submit" id="submit-btn">Sign In </button>
+            <p class="account">Don't have an account? <a href="/signup/signup.html">SignUp</a></p>
+        </form> 
+    </main>
+    <div class="img-cont">
+        <img src="../images/support.png" alt="home-img" class="home-img">
+    </div>   
+</body>
+</html>

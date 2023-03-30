@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@400;700&family=Roboto:wght@400;700&family=Space+Grotesk:wght@400;500&display=swap" rel="stylesheet">
+    <title>Comfy Domicile</title>
+</head>
+<body>
+    <nav>
+        <div class="logo-cont">
+            <img src="./images/logo.png" alt="school-logo" class="logo-img">
+        </div>
+        <div class="topnav" id="myTopnav">
+            <a href="#" class="active" id="home">Home</a>
+            <a href="/accommodation/accommodation.html">Accommodation</a>
+            <a href="/about/about.html">About</a>
+            <a href="/blog/blog.html">Blog</a>
+            <a href="/contact/contact.html">Contact</a>
+            <a href="javascript:void(0);" class="icon" onclick="navBar()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+        <div class="btn-cont">
+            <div class="contributor" id="contributor">
+                <button class="btn1"><a href="/signup/signup.html">Be a Contributor</a></button>
+            </div>
+            <div class="contributor" id="contributor">
+                <button class="btn2"><a href="/login/login.html">Login</a></button>
+            </div>
+        </div>
+    </nav>
+        <main>
+            <section>
+                <div class="main-cont">
+                    <div class="explore">
+                        <h3>Explore Thousands Of Our Comfortable Residences In Different Locations Across The 36 States in Nigeria</h3>
+                        <div class="sign">
+                            <p>Sign Up to have access to all our cosy domiciles in different parts of the country</p>
+                        </div>
+                    </div>
+                    
+                    <div class="img-cont">
+                        <img src="./images/duplex4.png" alt="home-img" class="home-img">
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="search-cont">
+                    <i class="fa fa-search" id="search" onclick="getBuildingType()" ></i>
+                    <input type="text" placeholder="Search for Accommodation" name="search" id="titleText">
+                </div>
+                <div class="filter-wrap">
+                    <div class="result">
+                        <p>Showing 1-7 of 10 results</p>
+                    </div>
+                    <div class="sort-wrap">
+                        <a href=""><i class="fa fa-bars filter-icon"></i></a>
+                        <a href=""><i class="fa fa-bars filter-icon"></i></a>
+                        <select name="filter" id="filter" class="filter-btn1">
+                            <option value="name">Filter</option>
+                            <option value="name">Names</option>
+                        </select>
+                        <select name="sortby" id="sortby" class="filter-btn">
+                            <option value="name">Sort By</option>
+                            <option value="name">Names</option>
+                        </select>
+                    </div>
+                </div>
+            </section>
+            <section class="section-wrap">
+                <section class="all-accommodations">
+                    <div>
+                        <p>All Accommodations</p>
+                    </div>
+                    <div>
+                        <p>Bungalow (441)</p>
+                    </div>
+                    <div>
+                        <p>Duplex (532)</p>
+                    </div>
+                    <div>
+                        <p>Mansion (109)</p>
+                    </div>
+                    <div>
+                        <p>Two Storey (100)</p>
+                    </div>
+                    <div>
+                        <p>Penthouse (87)</p>
+                    </div>
+                    <div>
+                        <p>Flat (644)</p>
+                    </div>
+                    <div>
+                        <p>Terracedhouse (76)</p>
+                    </div>
+                </section>
+                <section class="img-section">
+                    <div class="accommodation-img">
+                        <a href="/accommodation/accomm_details/details.html" id="bunga"><img src="./images/bungalow5.png" alt="bungalow" class="bungalow-img"></a>
+                        <div class="location">
+                            <p class="location-text">Bungalow</p>
+                            <p class="price">Lagos</p>
+                        </div>
+                    </div>
+                    <div class="accommodation-img">
+                        <a href="/accommodation/accomm_details/accom_detail_one/detail_one.html" id="duplex"><img src="./images/duplex1.png" alt="bungalow" class="bungalow-img"></a>
+                        <div class="location">
+                            <p class="location-text">Duplex</p>
+                            <p class="price">Abuja</p>
+                        </div>
+                    </div>
+                    <div class="accommodation-img" >
+                        <a href="/accommodation/accomm_details/accom_detail_two/detail_two.html" id="mansion"><img src="./images/mansion1.jpeg" alt="bungalow" class="bungalow-img"></a>
+                        <div class="location">
+                            <p class="location-text">Mansion</p>
+                            <p class="price">Portharcourt</p>
+                        </div>
+                    </div>
+                    <div class="accommodation-img">
+                        <a href="/accommodation/accomm_details/details.html"><img src="./images/storey5.png" alt="bungalow" class="bungalow-img"></a>
+                        <div class="location">
+                            <p class="location-text">Storey</p>
+                            <p class="price">Delta</p>
+                        </div>
+                    </div>
+                    <div class="accommodation-img">
+                        <a href="/accommodation/accomm_details/accom_detail_one/detail_one.html"><img src="./images/pent3.png" alt="bungalow" class="bungalow-img"></a>
+                        <div class="location">
+                            <p class="location-text">PentHouse</p>
+                            <p class="price">Ibadan</p>
+                        </div>
+                    </div>
+                    <div class="accommodation-img">
+                        <a href="/accommodation/accomm_details/accom_detail_two/detail_two.html"><img src="./images/flat4.png" alt="bungalow" class="bungalow-img"></a>
+                        <div class="location">
+                            <p class="location-text">Flat</p>
+                            <p class="price">Bauchi</p>
+                        </div>
+                    </div>
+                    <div class="accommodation-img">
+                        <a href="/accommodation/accomm_details/details.html"><img src="./images/terraced4.png" alt="bungalow" class="bungalow-img"></a>
+                        <div class="location">
+                            <p class="location-text">TerracedHouse</p>
+                            <p class="price">Niger</p>
+                        </div>
+                    </div>
+                </section>
+
+            </section>
+            
+           
+        </main>
+        <footer>
+            <div class="footer-wrap">
+                <div class="footer-cont">
+                    <div class="logo-cont">
+                        <img src="./images/logo.png" alt="house-logo" class="logo-img">
+                    </div>
+                    <p class="footer-text">Comfy Domicile is an online housing agency platform that provides cosy accommodations for interested residence seekers within 24hours</p>
+                    <a href="https://www.facebook.com" target="_blank"><i class="fa fa-facebook icon-img"></i></a>
+                    <a href="https://www.twitter.com" target="_blank"><i class="fa fa-twitter icon-img"></i></a>
+                    <a href="https://www.youtube.com" target="_blank"><i class="fa fa-youtube icon-img"></i></a>
+                    <a href="https://www.linkedin.com" target="_blank"><i class="fa fa-linkedin icon-img"></i></a>
+                </div><hr>
+                <div class="quicklinks">
+                    <h3>QuickLinks</h3>
+                    <p>Home</p>
+                    <p>Accomm</p>
+                    <p>About</p>
+                    <p>Blog</p>
+                    <p>Be a Contributor</p>
+                </div><hr>
+                <div class="quicklinks">
+                    <h3>Contact</h3>
+                    <p>(+234910004678)</p>
+                    <p>Info@comfydomicile.com</p>
+                    <p>Phase 20, Garki Estate, Abuja, Nigeria</p>
+                </div><hr>
+                <div class="quicklinks">
+                    <h3>Terms and Conditions</h3>
+                    <p>Privacy Statement</p>
+                    <p>Legal Notice</p>
+                    <p>FAQ</p>
+                    <p>Site Credit</p>
+                </div><hr>
+
+            </div>
+            
+            <div class="copyright">
+                <p class="copyright-logo">&#169 2023 The Comfy Domicile, All Right Reserved</p>
+            </div>
+           
+        </footer>
+        
+   
+
+
+
+    <script>
+        function navBar(){
+            let bar = document.getElementById("myTopnav")
+            if(bar.className === "topnav") {
+                bar.className += " responsive"
+            } else{
+                bar.className = "topnav";
+            }
+        }
+   
+        function getBuildingType(){
+            let buildingType = document.querySelector('input');
+            let textValue = buildingType.value;
+            let textValueUpper = textValue.toUpperCase();
+            let textValueLower = textValue.toLowerCase();
+            if(textValueUpper === "bungalow" || textValueLower === "bungalow"){
+                window.location.href="/accommodation/accomm_details/details.html";    
+             }else if(textValueUpper === "duplex" || textValueLower === "duplex"){
+                window.location.href="/accommodation/accomm_details/accom_detail_one/detail_one.html";    
+                
+            }else if(textValueUpper === "mansion" ||textValueLower === "mansion" ){
+                window.location.href="/accommodation/accomm_details/accom_detail_two/detail_two.html";
+            } else {
+                return
+            }
+        };       
+    </script>
+</body>
+</html>

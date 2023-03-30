@@ -1,0 +1,372 @@
+body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+  }
+  .logo-cont {
+    width: 40%;
+  }
+  
+  .logo-img {
+    max-width: 100%;
+    height: auto;
+  }
+  .topnav a:not(:last-child) {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+    margin-left: 30px;
+  }
+  .topnav.responsive {
+    position: relative;
+  }
+  .topnav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: center;
+  }
+  .topnav {
+    margin: 0 auto;
+  }
+  .topnav a {
+    display: block;
+    text-align: center;
+    padding: 16px 14px;
+    text-decoration: none;
+    font-size: 3vw;
+    color: rgb(255, 138, 0);
+    cursor: pointer;
+  }
+  .contributor a {
+    display: block;
+    text-align: center;
+    padding: 16px 14px;
+    text-decoration: none;
+    font-size: 3vw;
+    color: rgb(255, 138, 0);
+    cursor: pointer;
+  
+  }
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  .topnav .icon {
+    display: none;
+  }
+  button {
+    display: inline-block;
+    border-radius: 30px;
+    border: none;
+    padding: 0;
+    background-color: rgb(255, 138, 0);
+  }
+  #contributor a {
+    color: white;
+  }
+  .btn1 {
+    width: 150px;
+  }
+  .btn2 {
+    width: 100px;
+  }
+  .btn-cont {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-bottom: 40px;
+  }
+  .order a{
+    text-decoration: none;
+    color:grey;
+  }
+  main{
+    background-color: rgb(255,247,223);
+    padding:0 0 5px;
+  }
+  .info-wrap{
+    color:grey;
+    margin: 90px 0 0;
+  }
+  .info{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    font-size: 3vw;
+    margin: 20px 0;
+    padding-bottom: 20px;
+    border-bottom: 2px solid grey;
+  }
+  .info1{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+   font-size: 3vw;
+   margin: 10px 0;
+  }
+  .order{
+    max-width: 25%;
+  }
+  .order-info{
+    border: 2px solid grey;
+    margin: 10px  ;
+    max-width: 95%;
+    border-bottom: none;
+    border-radius: 5px;
+    color:grey;
+  }
+  .bungalow-cont{
+    width:25%;
+  }
+  .bungalow-img{
+    max-width: 95%;
+    height: auto;
+    border-radius: 50%;
+  }
+  .figure{
+    margin-left: 30px;
+  }
+  .figure5{
+    padding-left: 45px;
+  }
+  .figure2{
+    padding-left: 45px;
+  }
+  .button-cont{
+    margin: 20px 0 40px;
+  }
+  .button-cont button{
+    width:50%;
+    padding: 10px 0;
+    margin: 20px auto;
+    display: block;
+    color:white;
+  }
+  .button-cont a{
+    text-decoration: none;
+  }
+  .icon-img {
+    border-radius: 50%;
+    width: 15px;
+    padding: 15px 20px;
+  }
+  .fa-facebook {
+    background-color: blue;
+    color: white;
+    margin-right: 15px;
+  }
+  .fa-twitter {
+    background-color: skyblue;
+    color: white;
+    margin-right: 15px;
+  }
+  .fa-youtube {
+    background-color: red;
+    color: white;
+    margin-right: 15px;
+  }
+  .fa-linkedin {
+    background-color: blue;
+    color: white;
+    margin-bottom: 10px;
+  }
+  footer {
+    padding-left: 10px;
+    font-size: 3vw;
+    background-color: black;
+    color: white;
+  }
+  .footer-text {
+    margin: 0 0 5px 0;
+  }
+  .quicklinks {
+    margin-bottom: 20px;
+  }
+  .copyright-logo {
+    margin: 0;
+    padding-bottom: 10px;
+  }
+  @media only screen and (min-width: 768px) and (max-width: 1023px){
+    .logo-cont {
+        width: 20%;
+      }
+    
+      .logo-img {
+        max-width: 100%;
+        height: auto;
+      }
+    
+      .topnav a.icon {
+        display: none;
+      }
+    
+      .topnav {
+        overflow: hidden;
+        width: 55%;
+      }
+      .topnav a {
+        float: left;
+        display: inline;
+        text-align: center;
+        padding: 16px 12px;
+        text-decoration: none;
+        font-size: 2vw;
+        margin: 15px 0 0 0;
+        color: rgb(255, 138, 0);
+      }
+      .topnav a:not(:last-child) {
+        display: block;
+      }
+      nav {
+        display: flex;
+        justify-content: space-between;
+      }
+    
+      .btn-cont {
+        width: 25%;
+        font-size: 2vw;
+        margin: 20px 0 0 0;
+      }
+      #contributor a {
+        color: white;
+        font-size: 1vw;
+      }
+      .btn1 {
+        width: 100px;
+      }
+      .btn2 {
+        width: 70px;
+      }
+      .figure2{
+        padding-left: 25px;
+      }
+      .info{
+        font-size: 2vw;
+      }
+      .info1{
+        font-size: 2vw;
+      }
+      .button-cont button{
+        padding: 20px 0;
+        margin-bottom: 150px;
+        font-size: 2vw;
+      }
+      footer {
+        font-size: 2vw;
+      }
+      .footer-wrap{
+        display: flex;
+        justify-content:center;
+      }
+      hr{
+        display: none;
+      }
+      .footer-text{
+        max-width: 50%;
+      }
+      .quicklinks {
+        margin-right: 20px;
+      }
+  }
+  @media only screen and (min-width: 1024px) and (max-width: 1440px){
+    .logo-cont {
+        width: 20%;
+      }
+    
+      .logo-img {
+        max-width: 100%;
+        height: auto;
+      }
+      .topnav a.icon {
+        display: none;
+      }
+    
+      .topnav {
+        overflow: hidden;
+        width: 55%;
+      }
+      .topnav a {
+        float: left;
+        display: inline;
+        text-align: center;
+        padding: 16px 25px;
+        text-decoration: none;
+        font-size: 1.5vw;
+        margin: 25px 0 0 0;
+        color: rgb(255, 138, 0);
+      }
+      .topnav a:not(:last-child) {
+        display: block;
+      }
+      nav {
+        display: flex;
+        justify-content: space-between;
+      }
+    
+      .btn-cont {
+        width: 25%;
+        font-size: 2vw;
+        margin: 35px 0 0 0;
+      }
+      #contributor a {
+        color: white;
+        font-size: 1vw;
+      }
+      .btn1 {
+        width: 140px;
+      }
+      .btn2 {
+        width: 100px;
+      }
+      .info-wrap{
+        margin-top: 120px;
+      }
+      .figure2{
+        padding-left: 0px;
+      }
+      .info{
+        font-size: 1.5vw;
+      }
+      .info1{
+        font-size: 1.5vw;
+      }
+      .button-cont button{
+        padding: 30px 0;
+        font-size: 1.5vw;
+        margin-bottom: 200px;
+      }
+      footer {
+        font-size: 1.5vw;
+      }
+      .footer-cont{
+        max-width: 35%;
+      }
+      .footer-wrap{
+        display: flex;
+        justify-content:center;
+      }
+      hr{
+        display: none;
+      }
+      .footer-text{
+        max-width: 50%;
+      }
+      .quicklinks {
+        margin-right: 20px;
+      }
+      .copyright-logo{
+        font-size: 1vw;
+      }
+    
+
+
+  }
+
