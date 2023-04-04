@@ -42,7 +42,7 @@ body {
     padding: 16px 14px;
     text-decoration: none;
     font-size: 3vw;
-    color: rgb(255, 138, 0);
+    color: rgb(209, 165, 35);
     cursor: pointer;
   }
   .contributor a {
@@ -52,7 +52,7 @@ body {
     padding: 16px 14px;
     text-decoration: none;
     font-size: 3vw;
-    color: rgb(255, 138, 0);
+    color: rgb(209, 165, 35);
     cursor: pointer;
   
   }
@@ -68,7 +68,7 @@ body {
     border-radius: 30px;
     border: none;
     padding: 0;
-    background-color: rgb(255, 138, 0);
+    background-color: rgb(209, 165, 35);
   }
   #contributor a {
     color: white;
@@ -89,7 +89,7 @@ body {
     padding-top: 20px;
   }
   .explore {
-    color:rgb(255, 138, 0);
+    color:rgb(209, 165, 35);
     margin-left: 10px;
     line-height: 30px;
     font-size: 3vw;
@@ -117,7 +117,7 @@ body {
     border-top-right-radius: 15px;
   }
   .location {
-    background-color: rgb(255, 138, 0);
+    background-color: rgb(209, 165, 35);
     margin-bottom: 50px;
     color: white;
     border-bottom-left-radius: 15px;
@@ -221,7 +221,7 @@ body {
         text-decoration: none;
         font-size: 2vw;
         margin: 15px 0 0 0;
-        color: rgb(255, 138, 0);
+        color: rgb(209, 165, 35);
       }
       .topnav a:not(:last-child) {
         display: block;
@@ -257,7 +257,8 @@ body {
       .home-img {
         max-width: 95%;
         height: auto;
-        margin-top: 20px;
+        margin-top: 10px;
+        margin-left: 50px;
       }
       .sign p {
         margin-top: 70px;
@@ -328,7 +329,7 @@ body {
         text-decoration: none;
         font-size: 1.5vw;
         margin: 25px 0 0 0;
-        color: rgb(255, 138, 0);
+        color: rgb(209, 165, 35);
       }
       .topnav a:not(:last-child) {
         display: block;
@@ -365,7 +366,8 @@ body {
       .home-img {
         max-width: 95%;
         height: auto;
-        margin-top: 20px;
+        margin-top: 5px;
+        margin-left: 120px;
       }
       .sign p {
         margin-top: 80px;

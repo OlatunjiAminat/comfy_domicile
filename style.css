@@ -41,7 +41,7 @@ body {
   padding: 16px 14px;
   text-decoration: none;
   font-size: 3vw;
-  color: rgb(255, 138, 0);
+  color: rgb(209, 165, 35);
   cursor: pointer;
 }
 .contributor a {
@@ -50,7 +50,7 @@ body {
   padding: 16px 14px;
   text-decoration: none;
   font-size: 3vw;
-  color: rgb(255, 138, 0);
+  color: rgb(209, 165, 35);
   cursor: pointer;
 }
 .topnav a:hover {
@@ -65,7 +65,7 @@ button {
   border-radius: 30px;
   border: none;
   padding: 0;
-  background-color: rgb(255, 138, 0);
+  background-color:rgb(209, 165, 35)
 }
 #contributor a {
   color: white;
@@ -83,7 +83,7 @@ button {
   margin-bottom: 40px;
 }
 .main-cont {
-  background-color: rgb(255, 138, 0);
+  background-color: rgb(209, 165, 35);
   padding-top: 20px;
 }
 .explore {
@@ -115,7 +115,7 @@ button {
 input {
   width: 70%;
   height: 40px;
-  background-color: rgb(255, 138, 0);
+  background-color:rgb(209, 165, 35);
   border-radius: 20px;
   text-align: center;
   border: none;
@@ -154,7 +154,7 @@ input {
   color: grey;
 }
 .location {
-  background-color: rgb(255, 138, 0);
+  background-color: rgb(209, 165, 35);
   margin-bottom: 50px;
   color: white;
   border-bottom-left-radius: 15px;
@@ -254,7 +254,7 @@ footer {
     text-decoration: none;
     font-size: 2vw;
     margin: 15px 0 0 0;
-    color: rgb(255, 138, 0);
+    color: rgb(209, 165, 35);
   }
   .topnav a:not(:last-child) {
     display:block;
@@ -382,7 +382,7 @@ footer {
     text-decoration: none;
     font-size: 1.5vw;
     margin: 25px 0 0 0;
-    color: rgb(255, 138, 0);
+    color: rgb(209, 165, 35);
   }
   .topnav a:not(:last-child) {
     display: block;
@@ -408,9 +408,10 @@ footer {
     width: 100px;
   }
   .explore {
-    max-width: 50%;
+    max-width: 40%;
     font-size: 1.5vw;
     line-height: 40px;
+    padding-left: 20px;
   }
   .img-cont {
     max-width: 50%;
